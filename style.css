@@ -1,0 +1,253 @@
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/Gotham-Bold.otf)
+}
+@font-face {
+    font-family: Proxima;
+    src: url(../fonts/proximanova-regular.otf)
+}
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    margin: 0 auto;
+    background-image: url(../img/bgi.png);
+    width: 1200px;
+    height: 690px;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.222;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    width: 1000px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    padding: 10px 20px;
+}
+
+
+.logo1{
+    margin: 35px 205px 0 85px;
+}
+
+li a{
+    margin-left: 25px;
+      
+}
+
+li a:hover{
+    background-color: #130e27;
+    border-radius: 15px;
+}
+
+.sell{
+    font-size: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0.889;
+    text-transform: uppercase;
+    margin: 130px 0 0 105px;
+      
+}
+
+.sellt{
+    color: #130e27;
+}
+
+.sellb{
+    color: #ffffff;
+}
+
+.txt1{
+    width: 465px;
+    margin: 55px 0 0 105px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    line-height: 1.4;   
+}
+.services{
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.items1{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.title1{
+   
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #130e27;
+    text-transform: uppercase;
+    margin: 45px 0 100px 0;
+
+}
+
+img.icon{
+    height: 142px;
+    ;}
+ 
+.txtitem{
+
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(22, 22, 22);
+    line-height: 1.4;
+    text-align: center;
+    width: 170px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+ .red{
+    color: #c62314;
+ }
+
+.story{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #130e27;
+    height: 120px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.txt2{
+    width: 650px;
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+}
+
+.ourstory{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 75px;
+    background-color: #c62314;
+    border-radius: 10px;
+
+}
+
+a.ourstory:hover{
+    background-color: white;
+    color: #c62314;
+}
+
+.pricingblock{
+    border: 1px #efefef solid;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #efefef;
+    height: 615px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.title2{
+display: flex;
+justify-content: center;
+font-size: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(19, 14, 39);
+text-transform: uppercase;
+font-weight: lighter;
+}
+
+.card{
+    height: 390px;
+    width: 320px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.txtcrd1{
+    text-align: center;
+    font-size: 22px;
+    font-family: "Myriad Pro";
+    color: rgb(22, 22, 22);
+    margin-top: 35px;
+}
+
+.numb{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(198, 35, 20);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.txtcrd2{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(22, 22, 22);
+    line-height: 1.4;
+    margin-top: 35px;
+}
+
+a.klick{
+    display: flex;
+font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: #130e27;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 15px auto;
+  border-radius: 5px;
+  justify-content: center;
+  width: 210px;
+  height: 50px;
+  align-items: center;
+}
+
+a.klick:hover{
+    background-color: #c62314;
+
+}
+
+.lastblock{
+    background-color: #130e27;
+    width: 1200px;
+    height: 190px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.txt3{
+    align-items: center;
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    margin-left: 85px;
+}
+.logo2{
+    margin-left: 300px;
+}
